@@ -1,0 +1,20 @@
+{
+  "Biochemistry": {
+    "Topic": "Amino Acids and Proteins",
+    "Summary": "Amino acids are the building blocks of proteins. They are linked by peptide bonds and have unique side chains that determine structure and function.",
+    "KeyPoints": [
+      "Essential vs. Non-essential amino acids",
+      "Peptide bond formation",
+      "Protein folding and denaturation"
+    ]
+  },
+  "Microbiology": {
+    "Topic": "Gram-Positive Bacteria",
+    "Summary": "Gram-positive bacteria have a thick peptidoglycan layer and retain the crystal violet stain in Gram staining.",
+    "KeyPoints": [
+      "Staphylococcus and Streptococcus species",
+      "Spore formation",
+      "Antibiotic resistance mechanisms"
+    ]
+  }
+}
