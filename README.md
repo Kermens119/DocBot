@@ -31,3 +31,64 @@ It runs locally using **FastAPI**, **ChromaDB**, and a **Sentence Transformer mo
    ```bash
    git clone https://github.com/YOUR_USERNAME/DocBot-USMLE.git
    cd DocBot-USMLE
+Create and activate a virtual environment
+
+bash
+Copy code
+python -m venv venv
+venv\Scripts\activate   # on Windows
+source venv/bin/activate # on Mac/Linux
+Install dependencies
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the FastAPI server
+
+bash
+Copy code
+uvicorn chat_with_ai:app --reload
+Open your browser
+
+arduino
+Copy code
+http://127.0.0.1:8000/docs
+🧪 Example Query
+json
+Copy code
+{
+  "question": "What are the essential amino acids?"
+}
+Response:
+
+less
+Copy code
+🧠 Based on First Aid 2025, here’s what I found:
+Essential amino acids are those the body cannot synthesize...
+🧩 Future Plans
+Add GPT-based summarization (auto-switch when online)
+
+Create web UI for student chat
+
+Host on Cloudways for team study access
+
+👨‍💻 Author
+Jackson Ewald
+Founder, Logic Leap Tech
+
+Building intelligent systems to empower medical and law enforcement professionals.
+
+yaml
+Copy code
+
+---
+
+Once you commit that, your GitHub will look **professional and product-ready** — even investors or collaborators can instantly understand what DocBot does.
+
+---
+
+Would you like me to make a `requirements.txt` file next (so your repo automatically installs everything needed when someone clones it)?
+
+
+
+
